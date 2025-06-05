@@ -3,7 +3,6 @@
 }
 body{
     font-family: 'Poppins';
-    background-color: rgb(202, 255, 202);
 }
 header{
     background-color: rgb(202, 255, 202);
@@ -54,9 +53,13 @@ header .nav-bars .Register a{
     color: white;
     margin-left: 9px;
 }
+#Home{
+    background-color: rgb(202, 255, 202);
+    min-height: 100vh;
+    
+}
 #Home .content{
     margin: 20px;
-    margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -65,14 +68,15 @@ header .nav-bars .Register a{
     font-size: 40px;
     font-weight: bolder;
     line-height: 50px;
+    margin-top: 150px;
 }
 #Home .content .image img{
     width: 750px;
     height: 620px;
-    margin-top: -8rem;
+    margin-top: 11px;
 }
 #Home .parbuttun{
-    margin-top: -23rem;
+    margin-top: -22rem;
     margin-left: 43px;
 }
 #Home .parbuttun button{
@@ -88,7 +92,7 @@ header .nav-bars .Register a{
     background-color: white;
     padding: 10px;
     margin: auto 0;
-    margin-top: 8rem;
+    margin-top: -90px;
 }
 .logos .logoname{
     display: grid;
@@ -99,17 +103,223 @@ header .nav-bars .Register a{
     max-height: 55px;
 }
 .Portofolio{
-    background-color: white;
-    margin-top: 20px;
+    margin-top: 8rem;
 }
 .Portofolio .contener{
-    margin-left: 25px;
+    margin-left: 40px;
 }
-.Portofolio .contener h5{
+.Portofolio .contener .span{
+    color: #00CA72;
     margin-top: 20px;
 }
 .Portofolio .contener p{
     margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.Portofolio .gridicon{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 4rem;
+    margin-left: 40px;
+}
+.Portofolio .gridicon .icons img{
+    max-height: 30px;
+    max-height: 30px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(202, 255, 202);
+    border: none;
+}
+.Portofolio .gridicon .icons .description{
+    margin-top: 15px;
+}
+.Portofolio .gridicon .icons .span{
+    margin-top: 17px;
+}
+.Portofolio .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: rgb(237, 255, 237);
+    margin: auto 0;
+    margin-top: 10rem;
+    height: 12rem;
+}
+.Portofolio .grid-container .icons{
+    margin-top: 30px;
+    text-align: center;
+}
+.Portofolio .grid-container .icons img{
+    max-height: 40px;
+    max-height: 40px;
+}
+.Portofolio .grid-container .icons .description{
+    margin-top: 15px;
+}
+.Portofolio .grid-container .icons .etiquette{
+   color: #00CA72;
+   font-weight: bolder;
+   font-size: 22px;
+}
+.projet{
+    margin-top: 8rem;
+}
+.projet .contentprojet{
+    margin-left: 40px;
+}
+.projet .contentprojet span{
+    color: #00CA72;
+    margin-top: 20px;
+}
+.projet .contentprojet p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.projet .projetgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 1rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.projet .projetgrid .card img{
+    max-width: 37rem;
+    height: auto;
+}
+.projet .projetgrid .card h1{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.projet .projetgrid .card .description{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.testimonial{
+    margin-top: 8rem;
+}
+.contenertest{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.testimonial .contenertest span{
+    color: #00CA72;
+}
+.testimonial .contenertest p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.testimonial .tokengrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+    margin-top: 10rem;
+}
+.testimonial .tokengrid .token{
+    border: 1px solid black;
+    padding: 23px;
+    border-radius: 1rem;
+    width: 19rem;
+    margin-left: 50px;
+    height: 10rem;
+    box-shadow: 0.1px 2px 5px rgb(160, 160, 160);
+    border: none;
+}
+.testimonial .tokengrid .token p{
+    font-size: 11px;
+}
+.testimonial .tokengrid .token img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 10rem;
+    margin-top: 28px;
+}
+.testimonial .tokengrid .token .nameprofil{
+    margin-top: -55px;
+    margin-left: 60px;
+}
+.subscribe{
+    margin-top: 8rem;
+}
+.subscribe .contenersub{
+    text-align: center;
+}
+.subscribe .contenersub span{
+    color: #00CA72;
+}
+.subscribe .contenersub h1{
+    margin-top: 20px;
+}
+.subscribe .contenersub p{
+    color: rgb(110, 110, 110);
+}
+.subscribe .subscribe-box input{
+    flex: 1;
+    padding: 10px;
+    width: 25rem;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 25px;
+    outline: none;
+}
+.subscribe button{
+    padding: 10px;
+    background-color: rgb(255, 81, 0);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.footer{
+    background-color: #00CA72;
+    margin-top: 8rem;
+    height: 22rem;
+}
+.footer .footer-box{
+    display: flex;
+    gap: 13rem;
+}
+.footer .footer-box .web{
+    margin-left: 40px;
+    padding-top: 3rem;
+}
+.footer .footer-box .web .Social-Media{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+    height: 100px;
+}
+.footer .footer-box .web .Social-Media a{
+    color: white;
+    border: 1px solid black;
+    border-radius: 5rem;
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+    background-color: #00ca54;
+    border: none;
+    font-size: 20px;
+}
+.footer .footer-box .web p{
+    margin-top: 20px;
+}
+.footer .footer-box .web .links{
+    margin-top: 20px;
+    line-height: 40px;
+}
+.footer .footer-box .web .links li{
+    list-style: none;
+}
+.footer .footer-box .web .links li a{
+    text-decoration: none;
+    color: black;
+}
+.footer span{
+    margin-left: 40px;
 }
 #menu-toggle{
     display: none;
