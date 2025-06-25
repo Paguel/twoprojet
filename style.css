@@ -34,6 +34,10 @@ header .box .nav-bars{
     margin-right: 55px;
     text-decoration: none;
 }
+header .auther{
+    display: flex;
+    gap: 40px;
+}
 header .box .nav-bars a{
     text-decoration: none;
     color: black;
@@ -125,13 +129,9 @@ header .box .nav-bars .Register a{
     margin-left: 5rem;
 }
 .Portofolio .gridicon .icons img{
-    max-height: 30px;
-    max-height: 30px;
-    border: 1px solid black;
-    padding: 15px;
-    border-radius: 10px;
+    max-height: 35px;
     background-color: rgb(202, 255, 202);
-    border: none;
+    border-radius: 5px;
 }
 .Portofolio .gridicon .icons .description{
     margin-top: 15px;
@@ -225,7 +225,7 @@ header .box .nav-bars .Register a{
     padding: 15px;
     border-radius: 1rem;
     width: 19rem;
-    height: 10rem;
+    height: 11rem;
     box-shadow: 0.1px 2px 5px rgb(160, 160, 160);
     border: none;
 }
@@ -283,6 +283,7 @@ header .box .nav-bars .Register a{
 .footer .footer-box{
     display: flex;
     gap: 13rem;
+    padding: 4px;
 }
 .footer .footer-box .web{
     margin-left: 5rem;
@@ -296,13 +297,8 @@ header .box .nav-bars .Register a{
 }
 .footer .footer-box .web .Social-Media a{
     color: white;
-    border: 1px solid black;
-    border-radius: 5rem;
-    padding: 10px;
     height: 25px;
     width: 25px;
-    background-color: #00ca54;
-    border: none;
     font-size: 20px;
 }
 .footer .footer-box .web p{
@@ -335,9 +331,12 @@ header .box .nav-bars .Register a{
     header{
         margin: 0 auto;
     }
+    header .logo{
+        font-size: 22px;
+    }
     header .box .menu-toggle{
         display: block;
-        font-size: 23px;
+        font-size: 25px;
         font-weight: bolder;
         transform: translateY(-2rem);
     }
@@ -455,11 +454,11 @@ header .box .nav-bars .Register a{
     }
     .testimonial .tokengrid{
         display: block;
-        margin-left: 12px;
+        margin-left: 20px;
     }
     .testimonial .tokengrid .token{
-        margin-top: 1rem;
-        width: 21rem;
+        margin-top: 2rem;
+        width: 20rem;
         height: 11rem;
     }
     .subscribe .contenersub h1{
@@ -495,7 +494,8 @@ header .box .nav-bars .Register a{
         font-size: 15px;
     }
     .footer span{
-        margin-top: 2rem;
+        padding-top: 2rem;
         display: block;
+        margin: 0;
     }
 }
