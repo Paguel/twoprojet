@@ -349,9 +349,9 @@ header .box .nav-bars .Register a{
         flex-direction: column;
         display: none;
         background-color: rgb(202, 255, 202);
-        width: 100%; height: auto;
-        margin: 0;
+        width: 100%; top: 80px; right: 0; left: 0;
         text-align: center;
+        position: absolute;
     }
     header .box .nav-bars .auther{
         display: flex;
