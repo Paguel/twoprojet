@@ -327,7 +327,7 @@ header .box .nav-bars .Register a{
 @media screen and (max-width: 480px) {
     body {
         overflow-x: hidden;
-    }    
+    }
     header{
         margin: 0 auto;
     }
@@ -378,7 +378,7 @@ header .box .nav-bars .Register a{
         margin-top: 15rem;
     }
     #Home .content .image img {
-        width: 360px;
+        width: 100%;
         height: auto;
     }
     #Home .parbuttun {
@@ -452,9 +452,12 @@ header .box .nav-bars .Register a{
     .testimonial .contenertest p{
         font-size: 19px;
     }
+    .testimonial {
+        margin: 0 auto;
+    }
     .testimonial .tokengrid{
-        display: block;
-        margin-left: 20px;
+        display: grid;
+        gap: 2rem;
     }
     .testimonial .tokengrid .token{
         margin-top: 2rem;
